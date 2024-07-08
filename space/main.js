@@ -1,10 +1,10 @@
 import * as THREE from 'three';
 //import { io } from 'socket.io-client'
 //const socket = io('http://localhost:3000');
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { Group, TextureLoader } from 'three';
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 //import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 
